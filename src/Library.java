@@ -9,7 +9,7 @@ public class Library {
         }
 
         public void print() {
-            System.out.println("Книга: " + title);
+            System.out.println("Book: " + title);
         }
 
         public static void printBooks(Printable[] printable) {
@@ -29,7 +29,7 @@ public class Library {
         }
 
         public void print() {
-            System.out.println("Магазин: " + title);
+            System.out.println("Shop: " + title);
         }
 
         public static void printMagazines(Printable[] printable) {
